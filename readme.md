@@ -49,7 +49,7 @@ Right click on index.html and choose "Open with LiveServer"
 Each time
 `git add .`
 `git commit -m "Blablabla"`
-`git push -u origin master`
+`git push`
 
 
 # Heroku
@@ -71,6 +71,7 @@ Click on "Config Vars"
 In the "Key" field fill "DATABASE_URL"
 In the "Value" field fill the MongoDB Atlas connection String (see below)
 
+# MongoDB Atlas
 ## Connection to MongoDB Atlas
 Create an account - Once
 Create a cluster
@@ -81,3 +82,8 @@ Copy the "Connection String"
 Paste it in the "Value" field for environment variables in Heroku
 ! Replace <username> by the MongoDB user name
 ! Replace <password> by the MongoDB user password
+
+## Add to whitelist
+Go to Security -> Network Access
+Click "Add IP address"
+Set "0.0.0.0/0" top open all or just our app heroku IP address
