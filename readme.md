@@ -29,6 +29,10 @@ dotenv: to available environment variable
 body-parser: to parse easily our data from ejs
 Maybe useless...
 
+## Install multer
+`npm i multer`
+multer: handle file import
+
 
 # Run
 ## For sass
