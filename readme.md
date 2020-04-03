@@ -33,6 +33,13 @@ Maybe useless...
 `npm i multer`
 multer: handle file import
 
+## Install method-override
+`npm i method-override`
+method-override: allow to add new method in addition to post and get
+
+# Filepond
+https://pqina.nl/filepond/
+To store images in base64 in the database
 
 # Run
 ## For sass
