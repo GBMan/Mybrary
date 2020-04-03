@@ -54,6 +54,7 @@ Each time
 `git add .`
 `git commit -m "Blablabla"`
 `git push`
+... and see Heroku
 
 
 # Heroku
@@ -65,8 +66,8 @@ Reload the computer
 `heroku login`
 Open a web page in a browser for connection
 
-`heroku git:remote -a gb-mybrary`
-`git push heroku master`
+`heroku git:remote -a gb-mybrary`   // One time
+`git push heroku master`            // Each time
 Push the last git project version git on Heroku.
 
 ## Create the environment variables on Heroku
