@@ -1,0 +1,115 @@
+@font-face {
+  font-family: 'Gotham Rounded';
+  src: url("/fonts/GothamRounded-Bold.woff") format("woff"), url("/fonts/GothamRounded-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Gotham Rounded';
+  src: url("/fonts/GothamRounded-Book.woff") format("woff"), url("/fonts/GothamRounded-Book.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Gotham Rounded';
+  src: url("/fonts/GothamRounded-Light.woff") format("woff"), url("/fonts/GothamRounded-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal; }
+
+:root {
+  --nav-title-font-size: 3rem;
+  --nav-title-font-weight: bold;
+  --nav-link-font-weight: 300; }
+
+.header--title {
+  color: #bde9ff;
+  font-size: var(--nav-title-font-size);
+  font-weight: var(--nav-title-font-weight);
+  text-decoration: none; }
+
+.header--title:hover {
+  color: white; }
+
+.header--nav {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 5rem; }
+
+.header--nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0; }
+
+.header--nav li {
+  list-style: none; }
+
+.header--link {
+  color: #bde9ff;
+  font-weight: var(--nav-link-font-weight);
+  padding: 1rem;
+  text-decoration: none; }
+
+.header--link:hover {
+  color: white; }
+
+.btn {
+  border: 1px solid black;
+  border-radius: .5rem;
+  cursor: pointer;
+  font-family: 'Gotham Rounded';
+  font-size: 1.2rem;
+  padding: .5rem 1rem;
+  text-align: center;
+  text-decoration: none; }
+
+.btn-row {
+  align-items: start;
+  display: flex;
+  margin-bottom: 1.5rem; }
+
+.btn-row > * {
+  margin-left: 1rem; }
+
+.btn-row > *:first-child {
+  margin-left: 0; }
+
+.btn-primary {
+  background: #a8e2ff;
+  color: #004466; }
+
+.btn-primary:hover {
+  background: #75d1ff;
+  color: #002233; }
+
+.btn-danger {
+  background: #ffc5a8;
+  color: #662200; }
+
+.btn-danger:hover {
+  background: #ffa375;
+  color: #331100; }
+
+:root {
+  font-family: 'Gotham Rounded';
+  font-size: 25px;
+  color: #bde9ff; }
+
+*, *::before, *::after {
+  box-sizing: border-box; }
+
+body {
+  background: linear-gradient(to right, #001b29, #003652);
+  margin: 0; }
+
+.container {
+  margin: 0 auto 3rem auto;
+  max-width: 1200px; }
+
+.inner-container {
+  margin: 0 2rem; }
+
+.page-header {
+  font-size: 2rem;
+  font-weight: 500; }

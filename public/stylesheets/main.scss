@@ -1,0 +1,34 @@
+@import './partials/_fonts.scss';
+@import './partials/_variables.scss';
+@import './partials/_header.scss';
+@import './partials/_buttons.scss';
+
+
+:root {
+    font-family: 'Gotham Rounded';
+    font-size: 25px;
+    color: $color-text-light;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, $color-background-dark, $color-background-light);
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto 3rem auto;
+    max-width: 1200px;
+}
+
+.inner-container {
+    margin: 0 2rem;
+}
+
+.page-header {
+    font-size: 2rem;
+    font-weight: 500;
+}

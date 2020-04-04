@@ -1,0 +1,40 @@
+.btn {
+    border: 1px solid $color-btn-border;
+    border-radius: .5rem;
+    cursor: pointer;
+    font-family: 'Gotham Rounded';
+    font-size: 1.2rem;
+    padding: .5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-row {
+    align-items: start;
+    display: flex;
+    margin-bottom: 1.5rem;
+    > * {
+        margin-left: 1rem;
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+}
+
+.btn-primary {
+    background: $color-btn-primary-background;
+    color: $color-btn-primary-text;
+    &:hover {
+        background: $color-btn-primary-background-dark;
+        color: $color-btn-primary-text-dark;
+    }
+}
+
+.btn-danger {
+    background: $color-btn-danger-background;
+    color: $color-btn-danger-text;
+    &:hover {
+        background: $color-btn-danger-background-dark;
+        color: $color-btn-danger-text-dark;
+    }
+}

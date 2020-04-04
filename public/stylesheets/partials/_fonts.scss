@@ -1,0 +1,22 @@
+$path: '/fonts/';
+@font-face {
+    font-family: 'Gotham Rounded';
+    src: url($path+'GothamRounded-Bold.woff') format('woff'),
+         url($path+'GothamRounded-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gotham Rounded';
+    src: url($path+'GothamRounded-Book.woff') format('woff'),
+         url($path+'GothamRounded-Book.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gotham Rounded';
+    src: url($path+'GothamRounded-Light.woff') format('woff'),
+         url($path+'GothamRounded-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}

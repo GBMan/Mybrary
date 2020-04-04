@@ -1,0 +1,18 @@
+$color-base-hue: 200;
+$color-danger-hue-offset: 180;
+$color-danger-hue: $color-base-hue - $color-danger-hue-offset;
+$color-background-dark: hsl($color-base-hue, 100%, 8%);
+$color-background-light: hsl($color-base-hue, 100%, 16%);
+$color-text-light: hsl($color-base-hue, 100%, 87%);
+$color-btn-border: black;
+$color-btn-primary-background: hsl($color-base-hue, 100%, 83%);
+$color-btn-primary-background-dark: hsl($color-base-hue, 100%, 73%);
+$color-btn-primary-text: hsl($color-base-hue, 100%, 20%);
+$color-btn-primary-text-dark: hsl($color-base-hue, 100%, 10%);
+$color-btn-danger-background: hsl($color-danger-hue, 100%, 83%);
+$color-btn-danger-background-dark: hsl($color-danger-hue, 100%, 73%);
+$color-btn-danger-text: hsl($color-danger-hue, 100%, 20%);
+$color-btn-danger-text-dark: hsl($color-danger-hue, 100%, 10%);
+
+:root {
+}
