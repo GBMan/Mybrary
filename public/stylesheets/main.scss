@@ -2,11 +2,11 @@
 @import './partials/_variables.scss';
 @import './partials/_header.scss';
 @import './partials/_buttons.scss';
-
+@import './partials/_form.scss';
 
 :root {
     font-family: 'Gotham Rounded';
-    font-size: 25px;
+    font-size: 20px;
     color: $color-text-light;
 }
 
