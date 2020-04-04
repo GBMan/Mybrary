@@ -1,8 +1,10 @@
 @import './partials/_fonts.scss';
-@import './partials/_variables.scss';
+@import './partials/_colors.scss';
 @import './partials/_header.scss';
 @import './partials/_buttons.scss';
 @import './partials/_form.scss';
+@import './partials/_author.scss';
+@import './partials/_book.scss';
 
 :root {
     font-family: 'Gotham Rounded';
@@ -31,4 +33,8 @@ body {
 .page-header {
     font-size: 2rem;
     font-weight: 500;
+}
+
+.error-message {
+    color: $color-text-danger;
 }

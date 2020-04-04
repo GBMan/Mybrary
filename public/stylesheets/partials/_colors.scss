@@ -4,6 +4,7 @@ $color-danger-hue: $color-base-hue - $color-danger-hue-offset;
 $color-background-dark: hsl($color-base-hue, 100%, 8%);
 $color-background-light: hsl($color-base-hue, 100%, 16%);
 $color-text-light: hsl($color-base-hue, 100%, 87%);
+$color-text-danger: hsl($color-danger-hue, 100%, 50%);
 $color-btn-border: hsl($color-base-hue, 100%, 10%);
 $color-btn-primary-background: hsl($color-base-hue, 100%, 83%);
 $color-btn-primary-background-dark: hsl($color-base-hue, 100%, 73%);
